@@ -18,7 +18,12 @@
         <artifactId>selenium-java</artifactId>
         <version>4.23.0</version>
     </dependency>
- 
+ <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-devtools-v138</artifactId>
+    <version>4.23.0</version>
+</dependency>
+
 
 	<dependency>
     <groupId>org.slf4j</groupId>
