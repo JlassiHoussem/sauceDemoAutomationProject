@@ -17,11 +17,14 @@ protected static WebDriver driver;
 	@Parameters({"browserType", "url"})
 	@BeforeTest
 	public void setUp(@Optional("chrome")String browserType, String url) {
-		ChromeOptions options = new ChromeOptions();
-options.addArguments("--headless=new"); // important pour Chrome 109+
+ChromeOptions options = new ChromeOptions();
+options.addArguments("--headless=new"); // Headless mode (nouvelle implémentation)
 options.addArguments("--no-sandbox");
 options.addArguments("--disable-dev-shm-usage");
-options.addArguments("--window-size=1920,1080"); // remplace maximize()
+options.addArguments("--window-size=1920,1080"); // Remplace maximize
+
+driver = new ChromeDriver(options);
+
 
 driver = new ChromeDriver(options);
 
