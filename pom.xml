@@ -11,14 +11,14 @@
 	</properties>
 
 	<dependencies>
-	<dependencies>
+	 
     <!-- Selenium Java -->
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
         <version>4.23.0</version>
     </dependency>
-</dependencies>
+ 
 
 	<dependency>
     <groupId>org.slf4j</groupId>
