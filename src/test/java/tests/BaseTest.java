@@ -15,7 +15,14 @@ protected static WebDriver driver;
 	@Parameters({"browserType", "url"})
 	@BeforeTest
 	public void setUp(@Optional("chrome")String browserType, String url) {
-		
+		ChromeOptions options = new ChromeOptions();
+options.addArguments("--headless=new"); // important pour Chrome 109+
+options.addArguments("--no-sandbox");
+options.addArguments("--disable-dev-shm-usage");
+options.addArguments("--window-size=1920,1080"); // remplace maximize()
+
+driver = new ChromeDriver(options);
+
 		switch(browserType.toUpperCase()) {
 		
 		case "CHROME":
