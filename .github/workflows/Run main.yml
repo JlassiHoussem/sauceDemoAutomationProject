@@ -25,7 +25,7 @@ jobs:
     - name: Install Google Chrome
       run: |
         sudo apt-get update
-        sudo apt-get install -y google-chrome-stable
+        sudo apt-get install -y google-chrome-stable=131.0.6778.140-1
 
     - name: Cache Maven packages
       uses: actions/cache@v4
