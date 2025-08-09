@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-09T16:54:40 WAT" name="Suite" finished-at="2025-08-09T16:54:43 WAT" duration-ms="3593">
+    <groups>
+    </groups>
+    <test started-at="2025-08-09T16:54:40 WAT" name="Test" finished-at="2025-08-09T16:54:43 WAT" duration-ms="3593">
+      <class name="tests.CheckoutPageTest">
+        <test-method signature="checkoutTest()[pri:0, instance:tests.CheckoutPageTest@183ec003]" started-at="2025-08-09T16:54:43 WAT" name="checkoutTest" finished-at="2025-08-09T16:54:43 WAT" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+      </class> <!-- tests.CheckoutPageTest -->
+      <class name="tests.AddItemToCartTest">
+        <test-method signature="addItemToCartTest()[pri:0, instance:tests.AddItemToCartTest@7c137fd5]" started-at="2025-08-09T16:54:43 WAT" name="addItemToCartTest" finished-at="2025-08-09T16:54:43 WAT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToCartTest -->
+      </class> <!-- tests.AddItemToCartTest -->
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7e057f43]" started-at="2025-08-09T16:54:40 WAT" name="setUp" finished-at="2025-08-09T16:54:43 WAT" duration-ms="2806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginPageTest@7e057f43]" started-at="2025-08-09T16:54:43 WAT" name="loginTest" data-provider="userData" finished-at="2025-08-09T16:54:43 WAT" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTest@7e057f43]" started-at="2025-08-09T16:54:43 WAT" name="tearDown" finished-at="2025-08-09T16:54:43 WAT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

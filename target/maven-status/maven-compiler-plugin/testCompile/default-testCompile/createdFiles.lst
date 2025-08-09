@@ -1,0 +1,4 @@
+tests\CheckoutPageTest.class
+tests\BaseTest.class
+tests\LoginPageTest.class
+tests\AddItemToCartTest.class
